@@ -1,4 +1,4 @@
-package com.example.viikkotehtava2android.domain
+package com.example.viikkotehtava2android.model
 
 data class Task (
     val id: Int,

@@ -1,5 +1,7 @@
 package com.example.viikkotehtava2android.domain
 
+import com.example.viikkotehtava2android.model.Task
+
 fun addTask(list: List<Task>, task: Task): List<Task> {
     return list + task
 }

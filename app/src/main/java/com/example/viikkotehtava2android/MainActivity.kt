@@ -9,6 +9,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
 import com.example.viikkotehtava2android.ui.theme.Viikkotehtava2androidTheme
+import com.example.viikkotehtava2android.view.HomeScreen
 
 
 class MainActivity : ComponentActivity() {
