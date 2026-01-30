@@ -20,15 +20,15 @@ Viikkotehtävä 2 tavoitteena oli päivittää aiempaa sovellusta niin, että se
 
 -ViewModel pysyy tallessa, vaikka näyttöä käännettäisiin tai sovelluksessa tapahtuisi muita muutoksia. Se on siis turvallisempi paikka säilyttää tärkeää tietoa kuin pelkkä remember.
 
-Viikko 3: Arkkitehtuuri (MVVM)
+Viikko 3: Arkkitehtuuri 
 
 Viikolla 3 sovellus siivottiin noudattamaan virallista MVVM-arkkitehtuuria ja mukaan lisättiin tehtävien muokkausdialogi.
 
 MVVM (Model-View-ViewModel) on tapa jakaa koodi kolmeen osaan:
 
--Model: Sisältää tiedon (esim. Task-luokka).
+-Model: Sisältää tiedon.
 
--View: Näyttää tiedon käyttäjälle (Composables, kuten HomeScreen).
+-View: Näyttää tiedon käyttäjälle.
 
 -ViewModel: Toimii siltana näiden välillä. Se hoitaa logiikan ja säilyttää tiedon.
 
